@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <h1 align="center">Example with Registration Form</h1>
+    <form action="" method="post">
+        <table align="center" border="1" style="background-color:#00ffff;" >
+            <tr>
+                <td><label for="T1">Enter Username</label></td>
+                <td><input type="text" required id="T1" placeholder="Username"></td>
+            </tr>
+            <tr>
+                <td><label for="T2">Enter Password</label></td>
+                <td><input type="password" required id="T2"></td>
+            </tr>
+            <tr>
+                <td><label for="T3">Enter Email</label></td>
+                <td><input type="email" required  id="T3"></td>
+            </tr>
+            <tr>
+                <td><label for="T4">Select Gender</label></td>
+                <td>
+                    <input type="radio" value="Male" name="Gender" id="T4"><span>Male</span>
+                    <input type="radio" value="Female" name="Gender" id="T5"><span>Female</span>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="T6">Select Courses</label></td>
+                <td>
+                    <input type="checkbox" name="Course" value="HTML" id="T6"><span>HTML</span>
+                    <input type="checkbox" name="Course" value="CSS" id="T7"><span>CSS</span><br>
+                    <input type="checkbox" name="Course" value="Javascript" id="T8"><span>Javascript</span>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="T10">Select City</label></td>
+                <td>
+                    <select id="T10" required>
+                        <option value="">Select any city</option>
+                        <option value="Hyd">Hyderabad</option>
+                        <option value="Vizag">Vizag</option>
+                        <option value="BNG">Banglore</option>
+                        <option value="Chennai">Chennai</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="T11">Select fav color</label></td>
+                <td><input type="color" required name="" id="T11"></td>
+            </tr>
+            <tr>
+                <td><label for="T12">Rate yourself</label></td>
+                <td><input type="range" min="1" max="10" step="2" name="" id="T12"></td>
+            </tr>
+            <tr>
+                <td><label for="T13">Select Age</label></td>
+                <td><input type="number" min="18" max="40" step="1" name="" id="T13"></td>
+            </tr>
+            <tr>
+                <td><label for="T14">Select DOB</label></td>
+                <td><input type="date"  id="T14"></td>
+            </tr>
+            <tr>
+                <td><label for="T15">Select Image</label></td>
+                <td><input type="file"  id="T15"></td>
+            </tr>
+            <tr>
+                <td><label for="T16">Please leave feedback</label></td>
+                <td><textarea name="feedback" rows="5" cols="12"></textarea></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" id="B1" value="Submit"/>
+                </td>
+                <td>
+                    <input type="reset" id="RB1" value="Reset"/>
+                </td>
+            </tr>            
+        </table>
+    </form>
+</body>
+</html>
